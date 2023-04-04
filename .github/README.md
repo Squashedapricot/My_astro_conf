@@ -17,7 +17,7 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
 ```
 
-#### Clone the repository
+#### Clone this repository in the astro lua/user directory
 
 ```shell
 git clone https://github.com/Squashedapricot/My_astro_conf.git ~/.config/nvim/lua/user
