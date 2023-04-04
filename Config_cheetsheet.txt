@@ -1,0 +1,11 @@
+Config cheetsheet 
+# If you are confused go to
+  Youtube = https://www.youtube.com/watch?v=GEHPiZ10gOk(This uses version 3.0)
+                OR 
+  Astro Documentaion = https://astronvim.com/Configuration/manage_user_config
+
+- user.lua = All plugins and their config
+- treesitter.lua = tree sitter config and type directly there
+                   for perma config install
+- mason.lua = for LSP config perma config install
+- community.lua = to install comunity packs and plugins
