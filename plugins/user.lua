@@ -11,6 +11,7 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  -- CATPPUCCIN THEME CONFIG
   {
     "catppuccin/nvim", --# name of the plugin
     name = "catppuccin",
@@ -48,11 +49,16 @@ return {
           gitsigns = true,
           nvimtree = true,
           telescope = true,
-          notify = false,
+          notify = true,
           mini = false,
           -- For more plugins integrations please scroll down (https://github.com/catppuccin/nvim#integrations)
         },
       }
     end,
+  },
+
+  -- Notify Config for background color
+  require("notify").setup {
+    background_colour = "#1e1e2e",
   },
 }
